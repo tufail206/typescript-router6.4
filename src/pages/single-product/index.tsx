@@ -14,7 +14,7 @@ let DetialsPage = () => {
   console.log(LoaderData)
     return (
      <Container>
-        <Card sx={{ maxWidth: 845 }}>
+        <Card sx={{ maxWidth: 845 }} className="card">
           <CardActionArea sx={{display:"flex"}} >
             <CardMedia
               component="img"

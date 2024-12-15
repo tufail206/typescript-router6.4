@@ -5,4 +5,12 @@ export const Container=styled.div`
  margin:0 auto;
  padding:0 30px;
 
+ @media screen and (max-width:1200px){
+  padding:0 20px;
+ }
+
+ @media screen and (max-width:900px){
+  padding:0 10px;
+ }
+
 `

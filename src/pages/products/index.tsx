@@ -28,7 +28,7 @@ export const ProductPage: React.FC = () => {
 
             <ProductContainer>
                 {loaderData.products.map((product) => (
-                    <Card key={product.id} sx={{width:"26%"}}>
+                    <Card key={product.id} className="card" >
                         <CardActionArea onClick={() => navigate(`/product/${product.id}`)} >
                             <CardMedia
                                 component="img"
